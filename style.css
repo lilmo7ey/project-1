@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: system-ui, 'Segoe UI', 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: white;
+    background-color: #1F2937;
+    flex: 1;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+   
+button {
+  color: white;
+background-color: rgb(56, 56, 216);
+width: 150px;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+}
+
+.link {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.link a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.link a:hover {
+    color: #fff;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.edit {
+    max-width: 400px;
+}
+
+.edit h1 {
+    font-size: 2.5rem;
+}
+
+.edit p {
+    color: #ccc;
+}
+
+.new {
+    flex: 1; 
+    display: flex;
+    justify-content: center; 
+}
+
+.new img {
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+.boxes {
+    margin: 40px 0;
+}
+
+.head h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+   
+
+}
+
+.container1 img {
+    max-width: 200px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+
+
+blockquote {
+    margin: 40px 0;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.384);
+    border-left: 4px solid #ccc;
+}
+
+.button {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.button h1 {
+    font-size: 2rem;
+}
+
+.button p {
+    margin: 10px 0;
+}
+
+.button button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button button:hover {
+    background-color: #45a049;
+}
+.hover {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+  font-weight: bold;
+  padding: 30px;
+color: #1F2937;
+}
+.thor {
+  display: flex;
+  justify-content: flex-end;
+align-self: center;
+margin-right: 200px;
+  font-weight: bold;
+  color: black;
+}
+.combo {
+  background-color: rgb(56, 56, 216);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+  gap: 60px;
+height: 150px;
+
+}
+.xD {
+  display: flex;
+  width: 150px;
+  height: 30px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  width: auto;
+  margin: 10px;
+  padding: 20px;
+}
+
+.box img {
+  max-width: 150px; 
+  border-radius: 8px;
+  margin-bottom: 10px; 
+}
+
+.box p {
+  text-align: center; 
+  color: #ccc; 
+  font-size: 1rem; 
+}
